@@ -36,7 +36,7 @@ Copy code
 
 
 # API Key Setup
-This app uses the OMDb API for movie data. Replace the API key in your code with your personal API key from OMDb API.
+This app uses the OMDb API for movie data, replea the text "YOUR_API_KEY" in this [file](https://github.com/samuadda/movies_searching_app-React/blob/main/src/searchMovies.jsx) with your api key from [OMDb](https://www.omdbapi.com/)
 
 ## Technologies Used
 - React
