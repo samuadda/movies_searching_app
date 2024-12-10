@@ -5,7 +5,7 @@ function SearchMovies({ addFavourite }) {
 
     const findMovie = async e => {
         e.preventDefault();
-        const url = `https://www.omdbapi.com/?apikey=209aaa1d&s=${movieTitle}`;
+        const url = `https://www.omdbapi.com/?apikey={YOUR_API_KEY}=${movieTitle}`; // <== API KEY 
 
         try {
             const response = await fetch(url);
